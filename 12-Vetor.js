@@ -22,3 +22,19 @@ dinos.pop();
 console.table(dinos);
 dinos.pop();
 console.table(dinos);
+
+console.log("-----------Continuação Aula-----------");
+var dinos = [
+  "Triceratops",
+  "Tiranossauro",
+  "Estegossauro",
+  "Anquilossauro",
+  "Brontossauro",
+  "Cassiossauro",
+];
+
+console.table(dinos);
+var elementoProcurado = "Brontossauro";
+var posicao = dinos.indexOf(elementoProcurado);
+console.log("O " + elementoProcurado + "esta no indice " + posicao);
+n
